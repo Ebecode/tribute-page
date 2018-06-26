@@ -1,0 +1,30 @@
+body, html {
+	font-size: 16px;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+/* Colors:
+	rgb(178,109,0) || #b26d00
+	rgb(255,165,25) || #ffa519
+	rgb(255,155,0) || #ff9b00
+	rgb(0,97,178) || #0061b2
+	rgb(4,141,255) || #048dff
+*/
+
+header .img-div {
+	width: 50%;
+	height: 500px;
+	color: #ddd;
+	padding: 0;
+}
+
+#title {
+	text-align: center;
+	background-color: rgb(4,141,255);
+}
+
+#image {
+	display: block;
+	margin: auto;
+}
