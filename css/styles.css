@@ -3,6 +3,7 @@ body, html {
 	font-family: sans-serif;
 	margin: 0;
 	padding: 0;
+	background-color: #ccc;
 }
 /* Colors:
 	rgb(178,109,0) || #b26d00
@@ -12,19 +13,14 @@ body, html {
 	rgb(4,141,255) || #048dff
 */
 
-header .img-div {
-	width: 50%;
-	height: 500px;
-	color: #ddd;
-	padding: 0;
-}
-
-#title {
-	text-align: center;
-	background-color: rgb(4,141,255);
-}
-
-#image {
-	display: block;
+#main {
+	max-width: 66%;
 	margin: auto;
+	background-color: #fff;
+}
+#main #title {
+	text-align: center;
+	background-color: #999;
+	color: #fff;
+	padding: 20px 0px 20px 0px;
 }
